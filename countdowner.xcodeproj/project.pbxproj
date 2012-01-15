@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41A8CCE7FEDA92624E47AB56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A8CCE7FEDA92624E47AB55 /* UIKit.framework */; };
+		41A8CCE7FEDA92624E47AB58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A8CCE7FEDA92624E47AB57 /* Foundation.framework */; };
+		41A8CCE7FEDA92624E47AB5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A8CCE7FEDA92624E47AB59 /* CoreGraphics.framework */; };
+		41A8CCE7FEDA92624E47AB60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41A8CCE7FEDA92624E47AB5F /* InfoPlist.strings */; };
+		41A8CCE7FEDA92624E47AB62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A8CCE7FEDA92624E47AB61 /* main.m */; };
+		41A8CCE7FEDA92624E47AB66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A8CCE7FEDA92624E47AB65 /* AppDelegate.m */; };
+		41A8CCE7FEDA92624E47AB69 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A8CCE7FEDA92624E47AB68 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41A8CCE7FEDA92624E47AB4C /* countdowner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countdowner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A8CCE7FEDA92624E47AB55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41A8CCE7FEDA92624E47AB57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41A8CCE7FEDA92624E47AB59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41A8CCE7FEDA92624E47AB5D /* countdowner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "countdowner-Info.plist"; sourceTree = "<group>"; };
+		41A8CCE7FEDA92624E47AB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41A8CCE7FEDA92624E47AB61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41A8CCE7FEDA92624E47AB63 /* countdowner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "countdowner-Prefix.pch"; sourceTree = "<group>"; };
+		41A8CCE7FEDA92624E47AB64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41A8CCE7FEDA92624E47AB65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41A8CCE7FEDA92624E47AB67 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		41A8CCE7FEDA92624E47AB68 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41A8CCE7FEDA92624E47AB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A8CCE7FEDA92624E47AB56 /* UIKit.framework in Frameworks */,
+				41A8CCE7FEDA92624E47AB58 /* Foundation.framework in Frameworks */,
+				41A8CCE7FEDA92624E47AB5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A8CCE7FEDA92624E47AB48 = {
+			isa = PBXGroup;
+			children = (
+				41A8CCE7FEDA92624E47AB49 /* Products */,
+				41A8CCE7FEDA92624E47AB54 /* Frameworks */,
+				41A8CCE7FEDA92624E47AB5B /* countdowner */,
+			);
+			sourceTree = "<group>";
+		};
+		41A8CCE7FEDA92624E47AB49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41A8CCE7FEDA92624E47AB4C /* countdowner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41A8CCE7FEDA92624E47AB54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A8CCE7FEDA92624E47AB59 /* CoreGraphics.framework */,
+				41A8CCE7FEDA92624E47AB57 /* Foundation.framework */,
+				41A8CCE7FEDA92624E47AB55 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41A8CCE7FEDA92624E47AB5B /* countdowner */ = {
+			isa = PBXGroup;
+			children = (
+				41A8CCE7FEDA92624E47AB68 /* MainViewController.m */,
+				41A8CCE7FEDA92624E47AB67 /* MainViewController.h */,
+				41A8CCE7FEDA92624E47AB65 /* AppDelegate.m */,
+				41A8CCE7FEDA92624E47AB64 /* AppDelegate.h */,
+				41A8CCE7FEDA92624E47AB5C /* Supporting Files */,
+			);
+			path = countdowner;
+			sourceTree = "<group>";
+		};
+		41A8CCE7FEDA92624E47AB5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41A8CCE7FEDA92624E47AB63 /* countdowner-Prefix.pch */,
+				41A8CCE7FEDA92624E47AB61 /* main.m */,
+				41A8CCE7FEDA92624E47AB5F /* InfoPlist.strings */,
+				41A8CCE7FEDA92624E47AB5D /* countdowner-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41A8CCE7FEDA92624E47AB4D /* countdowner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A8CCE7FEDA92624E47AB4E /* Build configuration list for PBXNativeTarget "countdowner" */;
+			buildPhases = (
+				41A8CCE7FEDA92624E47AB51 /* Sources */,
+				41A8CCE7FEDA92624E47AB52 /* Frameworks */,
+				41A8CCE7FEDA92624E47AB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = countdowner;
+			productName = countdowner;
+			productReference = 41A8CCE7FEDA92624E47AB4C /* countdowner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41A8CCE7FEDA92624E47AB46 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 41A8CCE7FEDA92624E47AB47 /* Build configuration list for PBXProject "countdowner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41A8CCE7FEDA92624E47AB48;
+			productRefGroup = 41A8CCE7FEDA92624E47AB49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41A8CCE7FEDA92624E47AB4D /* countdowner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41A8CCE7FEDA92624E47AB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A8CCE7FEDA92624E47AB60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41A8CCE7FEDA92624E47AB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A8CCE7FEDA92624E47AB62 /* main.m in Sources */,
+				41A8CCE7FEDA92624E47AB66 /* AppDelegate.m in Sources */,
+				41A8CCE7FEDA92624E47AB69 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41A8CCE7FEDA92624E47AB5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41A8CCE7FEDA92624E47AB5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41A8CCE7FEDA92624E47AB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41A8CCE7FEDA92624E47AB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41A8CCE7FEDA92624E47AB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "countdowner/countdowner-Prefix.pch";
+				INFOPLIST_FILE = "countdowner/countdowner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41A8CCE7FEDA92624E47AB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "countdowner/countdowner-Prefix.pch";
+				INFOPLIST_FILE = "countdowner/countdowner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A8CCE7FEDA92624E47AB47 /* Build configuration list for PBXProject "countdowner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A8CCE7FEDA92624E47AB4A /* Release */,
+				41A8CCE7FEDA92624E47AB4B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A8CCE7FEDA92624E47AB4E /* Build configuration list for PBXNativeTarget "countdowner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A8CCE7FEDA92624E47AB4F /* Release */,
+				41A8CCE7FEDA92624E47AB50 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41A8CCE7FEDA92624E47AB46 /* Project object */;
+}
